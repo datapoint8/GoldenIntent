@@ -2,24 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lifestyle Finds</title>
+  <title>Golden Intent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .category {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .category:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .category h3 {
+      margin-bottom: 10px;
+    }
+    .category p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Lifestyle Finds</h1>
 
-  <p>
-    This website shares curated lifestyle product ideas to help people
-    discover useful and inspiring items for everyday life.
-  </p>
+  <header>
+    <h1>Golden Intent</h1>
+    <p>Curated finds to make everyday life easier, smarter and more intentional.</p>
+  </header>
 
-  <p>
-    Categories will include studying, home organization, fashion,
-    and other lifestyle essentials.
-  </p>
+  <section class="categories">
+    <div class="category">
+      <h3>Studying</h3>
+      <p>Notebooks, desk essentials and focus tools.</p>
+    </div>
+    <div class="category">
+      <h3>Home</h3>
+      <p>Smart items to improve comfort and organization.</p>
+    </div>
+    <div class="category">
+      <h3>Fashion</h3>
+      <p>Trendy pieces and timeless basics.</p>
+    </div>
+    <div class="category">
+      <h3>Hygiene</h3>
+      <p>Daily care essentials that actually work.</p>
+    </div>
+    <div class="category">
+      <h3>Organization</h3>
+      <p>Tools to simplify your space and your mind.</p>
+    </div>
+  </section>
 
-  <p>
-    Some links on this site may be affiliate links, which means a small
-    commission may be earned at no extra cost to the user.
-  </p>
+  <footer>
+    © 2026 Golden Intent. Affiliate curated content.
+  </footer>
+
 </body>
 </html>
+
