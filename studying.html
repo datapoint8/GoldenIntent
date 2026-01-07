@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Studying · Golden Intent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #EEDA60, #F77A2D, #FF5F5F);
+      background-attachment: fixed;
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 40px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.95;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 40px 30px 60px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 28px;
+    }
+
+    .product {
+      background: linear-gradient(135deg, #FFF6E1, #FFE3B5);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 12px 30px rgba(237, 218, 96, 0.35);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      position: relative;
+    }
+
+    .product:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 45px rgba(247, 122, 45, 0.45);
+    }
+
+    .product-name {
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    .price {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      font-weight: bold;
+    }
+
+    .image-placeholder {
+      margin-top: 14px;
+      height: 140px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    .back {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .back a {
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 30px;
+      background: rgba(255,255,255,0.9);
+      color: #333;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+
+    .back a:hover {
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Studying</h1>
+    <p>Tools and essentials designed to help you focus, retain more, and study with intention.</p>
+  </header>
+
+  <div class="container">
+    <section class="products">
+
+      <div class="product">
+        <div class="product-name">Product 1</div>
+        <div class="price">$</div>
+        <div class="image-placeholder">Product image</div>
+      </div>
+
+      <div class="product">
+        <div class="product-name">Product 2</div>
+        <div class="price">$</div>
+        <div class="image-placeholder">Product image</div>
+      </div>
+
+      <div class="product">
+        <div class="product-name">Product 3</div>
+        <div class="price">$</div>
+        <div class="image-placeholder">Product image</div>
+      </div>
+
+      <div class="product">
+        <div class="product-name">Product 4</div>
+        <div class="price">$</div>
+        <div class="image-placeholder">Product image</div>
+      </div>
+
+    </section>
+
+    <div class="back">
+      <a href="index.html">← Back to categories</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+</html>
